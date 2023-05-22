@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".registerActivity"
+    android:backgroundTint="@color/limaColor">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:id="@+id/back"
+        android:src="@drawable/arrow"
+        android:layout_marginRight="200dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/primaryColor"
+        android:textSize="25dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Daftar Akun"
+        android:id="@+id/txt_daftar"/>
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/txt_daftar"
+        android:background="@drawable/button_shape"
+        android:paddingLeft="15dp"
+        android:hint="Masukkan Email Anda"
+        android:id="@+id/txt_inputEmail"
+        android:backgroundTint="@color/secondaryColor"
+        android:inputType="textEmailAddress"/>
+
+
+    <EditText
+        android:id="@+id/txt_inputPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_inputEmail"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:paddingLeft="15dp"
+        android:hint="Masukkan Password"
+        android:inputType="textPassword"/>
+
+
+    <EditText
+        android:id="@+id/txt_inputKonfirmasiPass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txt_inputPass"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_shape"
+        android:backgroundTint="@color/secondaryColor"
+        android:paddingLeft="15dp"
+        android:hint="Konfirmasi password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/daftar2"
+        android:layout_below="@+id/txt_inputKonfirmasiPass"
+        android:hint="Daftar"
+        android:textColor="@color/secondaryColor"
+        android:background="@drawable/button_shape"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/syarat_ketentuan"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/primaryColor"
+        android:layout_below="@id/txt_inputKonfirmasiPass"
+        android:hint="dengan menekan tombol daftar,saya menyetujui Syarat,ketentuan dan Kebijakan privasi cogabut"/>
+
+
+
+
+</RelativeLayout>

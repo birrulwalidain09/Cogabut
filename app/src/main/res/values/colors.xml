@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#3F51B5</color>
+    <color name="secondaryColor">#FFFFFFFF</color>
+    <color name="tertiaryColor">#2196F3</color>
+    <color name="accentColor">#000000</color>
+    <color name="limaColor">#B8B6B6</color>
+    <color name="backColor">#93AABD</color>
+
+
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".homeActivity"
+    android:backgroundTint="@color/limaColor">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/logoHome"
+        android:src="@drawable/logo"
+        android:layout_marginRight="200dp"
+        android:backgroundTint="@color/secondaryColor"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/txt_sapaan"
+        android:layout_below="@+id/logoHome"
+        android:hint="Halo,Mungkin ada gaya rambut yang cocok dengan anda"
+        android:layout_marginLeft="20dp"
+        android:fontFamily="arial"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_sapaan"
+        android:id="@+id/cari"
+        android:layout_marginTop="-580dp"
+        android:hint="Cari gaya rambut idamanmu"
+        android:backgroundTint="@color/limaColor"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_sapaan"
+        android:layout_marginTop="-489dp"
+        android:id="@+id/populer"
+        android:textSize="30dp"
+        android:paddingLeft="15dp"
+        android:hint="Populer >"
+        android:textColor="@color/accentColor"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rambut1"
+        android:src="@drawable/gayarambut"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/rambut2"
+        android:paddingLeft="150dp"
+        android:src="@drawable/gayarambut"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rambut1"
+        android:id="@+id/fav"
+        android:paddingLeft="15dp"
+        android:textSize="30dp"
+        android:layout_marginTop="-262dp"
+        android:hint="Favorit >" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fav"
+        android:src="@drawable/gayarambut"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_below="@id/fav"
+        android:paddingLeft="150dp"
+        android:src="@drawable/gayarambut"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="350dp"
+        android:src="@drawable/profil" />
+
+</RelativeLayout>
