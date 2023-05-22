@@ -1,7 +1,8 @@
 # Cogabut
 
 1.Birrul Walidain (2008107010006) \
-2.Iftahul Fadhlan (2008107010024) 
+2.Iftahul Fadhlan (2008107010024) \
+3.M.Fhonna Fahlevi
 
 
 # Nama Aplikasi : Cogabut
