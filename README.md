@@ -13,13 +13,17 @@ Cogabut adalah aplikasi berbasis mobile yang berguna bagi seseorang yang kurang 
 Pada aplikasi user/pengguna diharuskan memiliki akun,user dapat membuat akun terlebih dahulu jika belum punya akun sebelumnya dan login jika sudah punya akun.Pada aplikasi user dapat melihat berbagai jenis potongan rambut dan mencari jenis mana yang diinginkannya.
 
 # Tampilan Login
-<img width="110" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/7f82a9e6-c48a-4048-91a9-7d4371ce91d6">
+<img width="180" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/09848309-714c-49e4-9960-222b9e14cd17">
 
 # Tampilan Home
-<img width="108" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/55e59496-fab9-40a8-a1f4-c2eea7b752f9">
+<img width="136" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/6aa68a0b-64c8-4870-a0fc-f570cd5f1c83">
 
 # Tampilan Profil
-<img width="110" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/0ed9bfbf-4402-4822-b962-fa90a039d947">
+<img width="135" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/94ae388a-7eca-4d69-a38d-c000e28df368">
+
+# Tampilan Register
+<img width="137" alt="image" src="https://github.com/birrulwalidain09/Cogabut/assets/84619047/eba40b7b-4e5b-4941-aa7e-a174bdd18de2">
+
 
 
 
